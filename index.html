@@ -199,6 +199,7 @@
 
                     <div class="pt-8">
                         <h5 class="text-sm font-medium text-gray-500 uppercase tracking-wider mb-2">Large Paragraph</h5>
+                        <p class="text-gray-600"><em>Font size: 18px or 1.125rem</em></p>
                         <p class="text-lg text-gray-700">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
                             nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
@@ -213,6 +214,7 @@
 
                     <div>
                         <h5 class="text-sm font-medium text-gray-500 uppercase tracking-wider mb-2">Small Paragraph</h5>
+                        <p class="text-gray-600"><em>Font size: 14px or 0.875rem, this looks cool and more modern but really should be used only for secondary text, main content should stay at 16px/1rem</em></p>
                         <p class="text-sm text-gray-700">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
                             nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
@@ -345,24 +347,25 @@
                 <div class="mb-12">
                     <h3 class="text-3xl font-bold text-gray-900 mb-4">Buttons</h3>
                     <p class="text-gray-600">The different types of buttons used throughout the website.</p>
+                    <p class="text-gray-600">Buttons have transitions added for the hover state. Transitions are 300ms and apply to all changes but as of now we just have color changes on hover.</p>
                 </div>
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
                     <div class="space-y-4">
                         <h4 class="text-sm font-medium text-gray-500 uppercase tracking-wider">Primary</h4>
                         <button
-                            class="bg-ACC-Purple hover:bg-ACC-Dark-Purple text-white font-medium py-3 px-6 rounded-lg">About
+                            class="duration-300 transition-all bg-ACC-Purple hover:bg-ACC-Dark-Purple text-white font-medium py-3 px-6 rounded-lg">About
                             the Team</button>
                     </div>
                     <div class="space-y-4">
                         <h4 class="text-sm font-medium text-gray-500 uppercase tracking-wider">Light</h4>
                         <button
-                            class="bg-ACC-Pink-Background hover:bg-ACC-Light-Purple text-gray-800 font-medium py-3 px-6 rounded-lg">Learn
+                            class="duration-300 transition-all bg-ACC-Pink-Background hover:bg-white text-gray-800 font-medium py-3 px-6 rounded-lg border border-ACC-Light-Purple">Learn
                             more</button>
                     </div>
                     <div class="space-y-4">
                         <h4 class="text-sm font-medium text-gray-500 uppercase tracking-wider">Outline</h4>
                         <button
-                            class="border border-ACC-Purple border-2 transition duration-200 ease-in-out text-ACC-Purple hover:bg-ACC-Purple hover:text-white  font-medium py-3 px-6 rounded-lg">Get
+                            class="duration-300 transition-all border border-ACC-Purple border-2 transition duration-200 ease-in-out text-ACC-Purple hover:bg-ACC-Purple hover:text-white  font-medium py-3 px-6 rounded-lg">Get
                             in touch</button>
                     </div>
                     <!-- <div class="space-y-4">
@@ -379,6 +382,11 @@
                             class="bg-gray-300 text-gray-600 cursor-not-allowed font-medium py-3 px-6 rounded-lg">Not
                             available</button>
                     </div>
+                    <div class="space-y-4">
+                        <h4 class="text-sm font-medium text-gray-500 uppercase tracking-wider">Call to Action</h4>
+                        <button
+                            class="duration-300 transition-all bg-ACC-Orange text-white hover:bg-[#721E01] font-medium py-3 px-6 rounded-lg">Do Something</button>
+                    </div>
                 </div>
                 <div class="mt-12">
                     <h4 class="text-lg font-bold text-gray-900 mb-6">Small Buttons</h4>
@@ -386,19 +394,19 @@
                         <div class="space-y-4">
                             <h4 class="text-sm font-medium text-gray-500 uppercase tracking-wider">Small Primary</h4>
                             <button
-                                class="bg-ACC-Purple hover:bg-ACC-Dark-Purple text-white text-sm font-medium py-2 px-4 rounded-lg">Sign
+                                class="duration-300 transition-all bg-ACC-Purple hover:bg-ACC-Dark-Purple text-white text-sm font-medium py-2 px-4 rounded-lg">Sign
                                 Up</button>
                         </div>
                         <div class="space-y-4">
-                            <h4 class="text-sm font-medium text-gray-500 uppercase tracking-wider">Small Light</h4>
+                            <h4 class="text-sm font-medium text-gray-500 uppercase tracking-wider ">Small Light</h4>
                             <button
-                                class="bg-ACC-Pink-Background hover:bg-gray-200 text-gray-800 text-sm font-medium py-2 px-4 rounded-lg">Learn
+                                class="duration-300 transition-all bg-ACC-Pink-Background hover:bg-white text-gray-800 text-sm font-medium py-2 px-4 rounded-lg border border-ACC-Light-Purple">Learn
                                 More</button>
                         </div>
                         <div class="space-y-4">
                             <h4 class="text-sm font-medium text-gray-500 uppercase tracking-wider ">Small Outline</h4>
                             <button
-                                class="border border-ACC-Purple border-2 text-ACC-Purple transition duration-200 ease-in-out hover:bg-ACC-Purple hover:text-white text-sm font-medium py-2 px-4 rounded-lg">Learn
+                                class="duration-300 transition-all border border-ACC-Purple border text-ACC-Purple transition duration-200 ease-in-out hover:bg-ACC-Purple hover:text-white text-sm font-medium py-2 px-4 rounded-lg">Learn
                                 More</button>
                         </div>
                     </div>
